@@ -163,7 +163,7 @@ class RegistroViewState extends State<RegistroView> {
                   }
                   if (lista.isNotEmpty) {
                     setState(() {
-                      for (var i = 0; i < lista.length; i++) {
+                      for (var i = 0; i < asistencias.length; i++) {
                         if (lista[0] == asistencias[i].hash) {
                           modificarAsistencia(i, nfc: true);
                           break;
